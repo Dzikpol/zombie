@@ -1,0 +1,29 @@
+	https://3dwarehouse.sketchup.com/model/b181316e-7ef9-4763-8c62-acfc5107232e/food-truck-EXTERIOR?hl=en
+
+Before you start, make sure you have SketchUp and Unreal Engine 5 installed, as well as the Datasmith Exporter plugin for SketchUp.
+
+1.  Install Datasmith Exporter Plugin for SketchUp:
+    
+    -   Download the appropriate version of the Datasmith Exporter Plugin for your SketchUp version from the Unreal Engine website: [https://www.unrealengine.com/en-US/datasmith/plugins](https://www.unrealengine.com/en-US/datasmith/plugins)
+    -   Follow the installation instructions provided on the download page.
+2.  Prepare your SketchUp model:
+    
+    -   Open your SketchUp model, and make sure it is organized using layers, groups, and components.
+    -   Consider simplifying the model by removing unnecessary details, as high-polygon models can impact performance in Unreal Engine 5.
+    -   Ensure all textures are correctly applied to the model.
+3.  Export your SketchUp model using the Datasmith Exporter:
+    
+    -   After installing the Datasmith Exporter Plugin, a new toolbar should be visible in SketchUp.
+    -   Click on the "Datasmith" icon in the toolbar.
+    -   Choose a destination folder and file name for the exported file (with a .udatasmith extension).
+    -   Click "Export" to export your SketchUp model.
+4.  Import the SketchUp model into Unreal Engine 5:
+    
+    -   Open Unreal Engine 5 and create a new project or open an existing one.
+    -   Make sure the "Datasmith" plugin is enabled in your Unreal Engine 5 project. To check, go to Edit > Plugins, search for "Datasmith," and enable the plugin if it's not already. You may need to restart the engine after enabling the plugin.
+    -   In the Unreal Engine 5 Content Browser, click the "Import Datasmith" button.
+    -   Locate and select the exported .udatasmith file from step 3, and click "Open."
+    -   In the "Datasmith Import Options" window, choose the import settings that suit your needs (you can generally use the default settings for most models).
+    -   Click "Import" to begin the import process.
+
+Once the import process is complete, your SketchUp model should now be available in Unreal Engine 5. You can further optimize the model, create materials, add lighting, and create interactive experiences using Unreal Engine 5's tools.
